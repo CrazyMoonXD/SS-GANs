@@ -15,9 +15,9 @@ CUB-birds-200:<br>
 ```python birds.py --image_folder path of your images```
 ### Pretrained models:
 64-flowers:<br>
-![https://pan.baidu.com/s/1T5bdHRPdzuhTeApF44a9MQ](https://pan.baidu.com/s/1T5bdHRPdzuhTeApF44a9MQ) 提取码：5dnj<br>
+[netG_64_350000.pth](https://pan.baidu.com/s/1T5bdHRPdzuhTeApF44a9MQ) 提取码：5dnj<br>
 128-flowers:<br>
-![https://pan.baidu.com/s/1JQThOMX2cOC_Kgimoeqy5w](https://pan.baidu.com/s/1JQThOMX2cOC_Kgimoeqy5w) 提取码：c1y0<br>
+[netG_128_350000.pth](https://pan.baidu.com/s/1JQThOMX2cOC_Kgimoeqy5w) 提取码：c1y0<br>
 
 
 
