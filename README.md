@@ -8,16 +8,20 @@ PyTorch >= 0.4.0
 ```cd code/```<br>
 ```python main.py --cfg cfg/birds_3stages.yml --gpu 0```
 ### How to evaluate(inception scores):
-```cd evaluate/```<br>
+Inception Scores:<br>
+[StackGAN inception model for birds and flowers evaluation](https://drive.google.com/uc?id=0B3y_msrWZaXLMzNMNWhWdW0zVWs&export=download) and put in ./evaluate/<br>
 Flowers-102:<br>
+```cd evaluate/```<br>
 ```python flowers.py --image_folder path of your images```<br>
 CUB-birds-200:<br>
-```python birds.py --image_folder path of your images```
+```python birds.py --image_folder path of your images```<br>
 ### Pretrained models:
 64-flowers:<br>
 [https://pan.baidu.com/s/1T5bdHRPdzuhTeApF44a9MQ](https://pan.baidu.com/s/1T5bdHRPdzuhTeApF44a9MQ) 提取码：5dnj<br>
 128-flowers:<br>
 [https://pan.baidu.com/s/1JQThOMX2cOC_Kgimoeqy5w](https://pan.baidu.com/s/1JQThOMX2cOC_Kgimoeqy5w) 提取码：c1y0<br>
+256-flowers:<br>
+[https://pan.baidu.com/s/1waHQgFswNNuFY6TNpZkXjQ](https://pan.baidu.com/s/1waHQgFswNNuFY6TNpZkXjQ) 提取码：tdzo<br>
 
 
 
