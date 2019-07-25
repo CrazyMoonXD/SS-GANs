@@ -1,0 +1,32 @@
+CONFIG_NAME: '3stages'
+
+
+DATASET_NAME: 'flowers'  # cat, dog, bedroom, church_outdoor
+EMBEDDING_TYPE: 'cnn-rnn'
+DATA_DIR: '../data/flowers'  # imagenet, lsun
+GPU_ID: '3'
+WORKERS: 1  # 4
+
+
+TREE:
+    BRANCH_NUM: 3
+
+TEST:
+    B_EXAMPLE: False  # True
+    
+
+TRAIN:
+    FLAG: False
+    NET_G_64: '../output/256_flowers_tac+h/Model/netG_64_342000.pth'
+    NET_G_128: '../output/256_flowers_tac+h/Model/netG_128_342000.pth'
+    NET_G_256: '../output/256_flowers_tac+h/Model/netG_256_342000.pth'
+    BATCH_SIZE: 12
+
+
+GAN:
+    EMBEDDING_DIM: 128
+    DF_DIM: 64
+    GF_DIM: 64
+    Z_DIM: 100
+    R_NUM: 2
+    B_CONDITION: True
