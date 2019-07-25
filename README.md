@@ -5,6 +5,9 @@ We propose a novel structure of network named SS-GANs, in which specific modules
 Python 2.7<br>
 PyTorch >= 0.4.0
 ### How to train flowers/birds model:
+preprocessed char-CNN-RNN text embeddings for [birds-text-feature](https://drive.google.com/uc?id=0B3y_msrWZaXLT1BZdVdycDY5TEE&export=download) and [birds-images](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)<br>
+preprocessed char-CNN-RNN text embeddings for [flowers-text-feature](https://drive.google.com/uc?id=0B3y_msrWZaXLaUc0UXpmcnhaVmM&export=download) and [flowers-images](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/)<br>
+Train Model:<br>
 ```cd code/```<br>
 ```python main.py --cfg cfg/birds_3stages.yml --gpu 0```
 ### How to evaluate(inception scores):
